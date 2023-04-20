@@ -1,0 +1,50 @@
+:root {
+   --main-color: #0d0210;
+   --secondary-color: #4d3147;
+   --tertiary-color: #866a80;
+   --detail-color: #c9b7c7;
+}
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   width: 100%;
+   height: 100vh;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+   width: 100%;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-transform: uppercase;
+   font-size: .8rem;
+   font-weight: 700;
+   color: #fff;
+}
+
+.header nav ul {
+   display: flex;
+   list-style: none;
+}
+
+.header nav ul li {
+   padding: 0 1rem;
+}
+
+.header p, nav {
+   padding: 1rem;
+}
+
+.container {
+   
+}
+ 
